@@ -21,6 +21,7 @@ set hlsearch
 
 set listchars=tab:>-,trail:.
 
+map <F2> <Esc>:BufExplorer<CR>
 map <F3> <Esc>:bp<CR>
 imap <F3> <Esc>:bp<CR>
 map <F4> <Esc>:bn<CR>

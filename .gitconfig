@@ -1,7 +1,6 @@
 [user]
-        name = Ali Sinan Koksal
+        name = Ali Sinan Köksal
         email = alisinan@gmail.com
-
 [alias]
         ci = commit
         co = checkout
@@ -9,14 +8,7 @@
         lg = log --stat --date=local
         sci = svn dcommit
         sup = svn rebase
-
 [color]
         ui = true
-        log = auto
-        diff = auto
-        branch = auto
-
-[tig]
-        show-date = local
 [core]
 	editor = vim
