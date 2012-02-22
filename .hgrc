@@ -3,7 +3,6 @@ username = Ali Sinan Koksal <alisinan@gmail.com>
 
 [extensions]
 bookmarks =
-hggit =
 fetch =
 color =
 pager =

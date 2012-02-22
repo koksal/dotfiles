@@ -26,3 +26,7 @@ map <F3> <Esc>:bp<CR>
 imap <F3> <Esc>:bp<CR>
 map <F4> <Esc>:bn<CR>
 imap <F4> <Esc>:bn<CR>
+
+hi Normal ctermbg=black
+hi Comment ctermfg=6
+hi Search ctermbg=white
