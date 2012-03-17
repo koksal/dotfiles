@@ -9,3 +9,6 @@ pager =
 
 [pager]
 pager = LESS='FSRX' less
+
+[bookmarks]
+track.current = True
