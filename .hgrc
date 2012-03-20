@@ -6,6 +6,7 @@ bookmarks =
 fetch =
 color =
 pager =
+graphlog =
 
 [pager]
 pager = LESS='FSRX' less
