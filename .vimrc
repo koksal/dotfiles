@@ -26,4 +26,20 @@ map <F3> <Esc>:bp<CR>
 imap <F3> <Esc>:bp<CR>
 map <F4> <Esc>:bn<CR>
 imap <F4> <Esc>:bn<CR>
+nmap <F8> :TagbarToggle<CR>
 
+let g:tagbar_type_scala = {
+    \ 'ctagstype' : 'Scala',
+    \ 'kinds'     : [
+        \ 'p:packages:1',
+        \ 'V:values',
+        \ 'v:variables',
+        \ 'T:types',
+        \ 't:traits',
+        \ 'o:objects',
+        \ 'a:aclasses',
+        \ 'c:classes',
+        \ 'r:cclasses',
+        \ 'm:methods'
+    \ ]
+\ }
