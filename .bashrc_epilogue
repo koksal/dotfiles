@@ -1,0 +1,21 @@
+
+PATH=$PATH:~/bin
+PATH=$PATH:~/lib/scala/current/bin
+PATH=$PATH:~/lib/z3/current/bin
+PATH=$PATH:~/lib/pakcs/current/bin
+PATH=$PATH:~/lib/eclipse/current
+PATH=$PATH:~/lib/racket/current/bin
+
+alias ll='ls -l'
+alias la='ls -la'
+alias vi='vim'
+alias pl='swipl'
+alias winterm='rdesktop -u koksal -d EECS -x lan -g 1900x1100 winterm.eecs.berkeley.edu'
+alias open='opn'
+alias guile='rlwrap guile'
+
+function cgrep() {
+  rgrep $1 $2 | grep -v "Binary file"
+}
+
+set -o vi
