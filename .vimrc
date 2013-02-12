@@ -21,6 +21,11 @@ set hlsearch
 
 set listchars=tab:>-,trail:.
 
+set undofile
+set undodir=~/.vim/undo
+set undolevels=1000
+set undoreload=10000
+
 map <F2> <Esc>:BufExplorer<CR>
 map <F3> <Esc>:bp<CR>
 imap <F3> <Esc>:bp<CR>

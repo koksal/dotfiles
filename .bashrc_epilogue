@@ -9,10 +9,12 @@ EDITOR=vim
 alias ll='ls -l'
 alias la='ls -la'
 alias vi='vim'
-alias winterm='rdesktop -u koksal -d EECS -x lan -g 1900x1100 winterm.eecs.berkeley.edu'
+alias winterm='rdesktop -u koksal -d EECS -x lan -f winterm.eecs.berkeley.edu'
 alias open='opn'
 alias guile='rlwrap guile'
 alias racket='rlwrap racket'
+
+alias datafart='curl --data-binary @- datafart.com'
 
 function cgrep() {
   rgrep $1 $2 | grep -v "Binary file"
