@@ -1,5 +1,6 @@
 [ui]
 username = Ali Sinan Koksal <alisinan@gmail.com>
+editor = ~/.hgeditor
 
 [extensions]
 bookmarks =
@@ -8,6 +9,7 @@ color =
 pager =
 graphlog =
 mq =
+hgshelve = ~/.hgext/hgshelve.py
 
 [pager]
 pager = LESS='FSRX' less
