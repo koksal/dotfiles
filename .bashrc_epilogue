@@ -3,6 +3,7 @@ PATH=$PATH:~/lib/java/current/bin
 PATH=$PATH:~/lib/scala/current/bin
 PATH=$PATH:~/lib/z3/current/bin
 PATH=$PATH:~/lib/racket/current/bin
+PATH=$PATH:~/lib/play/current
 
 EDITOR=vim
 
