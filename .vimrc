@@ -21,6 +21,7 @@ set hlsearch
 
 set listchars=tab:>-,trail:.
 
+" Persistent undos
 set undofile
 set undodir=~/.vim/undo
 set undolevels=1000
@@ -31,8 +32,9 @@ map <F3> <Esc>:bp<CR>
 imap <F3> <Esc>:bp<CR>
 map <F4> <Esc>:bn<CR>
 imap <F4> <Esc>:bn<CR>
-nmap <F8> :TagbarToggle<CR>
 
+" For tagbar plugin
+nmap <F8> :TagbarToggle<CR>
 let g:tagbar_type_scala = {
     \ 'ctagstype' : 'Scala',
     \ 'kinds'     : [
@@ -49,9 +51,11 @@ let g:tagbar_type_scala = {
     \ ]
 \ }
 
+" Fix split creation
 set splitbelow
 set splitright
 
+" Easier split navigation
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
