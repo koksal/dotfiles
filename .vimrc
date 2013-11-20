@@ -62,3 +62,6 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 execute pathogen#infect()
+
+let g:CommandTMaxHeight=10
+set wildignore+=*.o,*.obj,.git,*.swp,target/**

@@ -5,7 +5,7 @@
         ci = commit
         co = checkout
         st = status
-        lg = log --stat --date=local
+        lg = log --stat --date=local --graph --oneline --decorate --all
         sci = svn dcommit
         sup = svn rebase
 [color]
