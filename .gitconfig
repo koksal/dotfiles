@@ -8,6 +8,7 @@
         lg = log --stat --date=local
         sci = svn dcommit
         sup = svn rebase
+        wdiff = diff --color-words
 [color]
         ui = true
 [core]
