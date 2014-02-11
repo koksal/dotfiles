@@ -63,5 +63,7 @@ nnoremap <C-H> <C-W><C-H>
 
 execute pathogen#infect()
 
-let g:CommandTMaxHeight=10
-set wildignore+=*.o,*.obj,.git,*.swp,target/**
+" CtrlP plugin
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_cmd = 'CtrlPBuffer'
+set wildignore+=*.o,*.obj,.git,*.swp
