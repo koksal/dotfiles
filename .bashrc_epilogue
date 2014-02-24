@@ -23,3 +23,5 @@ function cgrep() {
 }
 
 set -o vi
+
+source ~/.git-completion.sh
