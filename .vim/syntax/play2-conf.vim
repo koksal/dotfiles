@@ -1,0 +1,1 @@
+../../vim-submodules/play2vim/syntax/play2-conf.vim
