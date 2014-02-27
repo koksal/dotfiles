@@ -1,1 +1,0 @@
-../../vim-submodules/play2vim/ftdetect/play2.vim
