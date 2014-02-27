@@ -1,3 +1,6 @@
 [submodule "vim-submodules/play2vim"]
 	path = vim-submodules/play2vim
 	url = git@github.com:gre/play2vim.git
+[submodule "vim-submodules/vim-scala"]
+	path = vim-submodules/vim-scala
+	url = git@github.com:derekwyatt/vim-scala.git
