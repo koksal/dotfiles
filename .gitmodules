@@ -7,3 +7,6 @@
 [submodule ".vim/bundle/play2vim"]
 	path = .vim/bundle/play2vim
 	url = git@github.com:gre/play2vim.git
+[submodule ".vim/bundle/nerdcommenter"]
+	path = .vim/bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
