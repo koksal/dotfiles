@@ -1,4 +1,38 @@
 #!/bin/bash
 
+dir=`pwd`
+echo Linking to files in $dir ...
+
+echo Updating submodules ...
 git submodule init
 git submodule update
+
+ln -sf $dir/.bashrc_epilogue ~/.bashrc_epilogue
+# how to add this to existing ubuntu .bashrc reliably?
+# echo "source ~/.bashrc_epilogue" >> ~/.bashrc
+
+ln -sf $dir/.ctags ~/.ctags
+
+ln -sf $dir/git-completion.sh ~/.git-completion.sh
+ln -sf $dir/.gitconfig ~/.gitconfig
+
+ln -sf $dir/.hgeditor ~/.hgeditor
+ln -sf $dir/.hgext ~/.hgext
+ln -sf $dir/.hgrc ~/.hgrc
+
+ln -sf $dir/.inputrc ~/.inputrc
+
+rm -rf ~/.sbt
+ln -sf $dir/.sbt/ ~/.sbt
+
+ln -sf $dir/.screenrc ~/.screenrc
+
+mkdir -p ~/.ssh
+ln -sf $dir/.ssh/config ~/.ssh/config
+
+ln -sf $dir/.tmux.completion ~/.tmux.completion
+ln -sf $dir/.tmux.conf ~/.tmux.conf
+
+rm -rf ~/.vim
+ln -sf $dir/.vim ~/.vim
+ln -sf $dir/.vimrc ~/.vimrc
