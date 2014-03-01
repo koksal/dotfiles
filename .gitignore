@@ -1,1 +1,7 @@
 *.pyc
+*.swp
+.sbt/boot
+.sbt/launchers
+.sbt/*/plugins/project
+.sbt/*/plugins/target
+.vim/bundle/target
