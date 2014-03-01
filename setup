@@ -16,8 +16,9 @@ ln -sf $dir/.ctags ~/.ctags
 ln -sf $dir/git-completion.sh ~/.git-completion.sh
 ln -sf $dir/.gitconfig ~/.gitconfig
 
-ln -sf $dir/.hgeditor ~/.hgeditor
+rm -rf ~/.hgext
 ln -sf $dir/.hgext ~/.hgext
+ln -sf $dir/.hgeditor ~/.hgeditor
 ln -sf $dir/.hgrc ~/.hgrc
 
 ln -sf $dir/.inputrc ~/.inputrc
