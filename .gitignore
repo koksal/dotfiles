@@ -5,3 +5,5 @@
 .sbt/*/plugins/project
 .sbt/*/plugins/target
 .vim/bundle/target
+.emacs.d/elpa
+.emacs.d/ensime

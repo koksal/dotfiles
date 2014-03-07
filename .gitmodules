@@ -22,3 +22,6 @@
 [submodule "sbt"]
 	path = sbt
 	url = git@github.com:paulp/sbt-extras.git
+[submodule ".vim/bundle/EasyMotion"]
+	path = .vim/bundle/EasyMotion
+	url = git@github.com:vim-scripts/EasyMotion.git
