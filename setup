@@ -37,3 +37,10 @@ ln -sf $dir/.tmux.conf ~/.tmux.conf
 rm -rf ~/.vim
 ln -sf $dir/.vim ~/.vim
 ln -sf $dir/.vimrc ~/.vimrc
+
+rm -rf ~/.emacs.d
+ln -sf $dir/.emacs ~/.emacs
+ln -sf $dir/.emacs.d ~/.emacs.d
+
+mkdir -p ~/bin
+ln -sf $dir/sbt/sbt ~/bin/sbt
