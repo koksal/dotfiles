@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/EasyMotion"]
 	path = .vim/bundle/EasyMotion
 	url = git@github.com:vim-scripts/EasyMotion.git
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
