@@ -67,3 +67,6 @@ execute pathogen#infect()
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_cmd = 'CtrlPBuffer'
 set wildignore+=*.o,*.obj,.git,*.swp
+
+" Place swp files in tmp so Play doesn't trigger sbt
+set dir=~/tmp
