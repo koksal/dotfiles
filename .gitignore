@@ -4,6 +4,7 @@
 .sbt/launchers
 .sbt/*/plugins/project
 .sbt/*/plugins/target
+.sbt/*/target
 .vim/bundle/target
 .emacs.d/elpa
 .emacs.d/ensime
