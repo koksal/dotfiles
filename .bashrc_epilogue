@@ -9,7 +9,7 @@ EDITOR=vim
 
 alias ll='ls -l'
 alias la='ls -la'
-alias vi='vim'
+alias vi='vim --servername VIM'
 alias winterm='rdesktop -u koksal -d EECS -x lan -f winterm.eecs.berkeley.edu'
 alias open='opn'
 alias guile='rlwrap guile'
