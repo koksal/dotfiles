@@ -1,17 +1,18 @@
 [user]
-        name = Ali Sinan Köksal
-        email = alisinan@gmail.com
+  name = Ali Sinan Köksal
+  email = alisinan@gmail.com
 [alias]
-        ci = commit
-        co = checkout
-        st = status
-        lg = log --date=local --graph --oneline --decorate --all
-        sci = svn dcommit
-        sup = svn rebase
-        wdiff = diff --color-words
+  ci = commit
+  co = checkout
+  st = status
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+  lg2 = log --date=local --graph --oneline --decorate --all
+  sci = svn dcommit
+  sup = svn rebase
+  wdiff = diff --color-words
 [color]
-        ui = true
+  ui = true
 [core]
-	editor = vim
+  editor = vim
 [push]
-	default = simple
+  default = simple
