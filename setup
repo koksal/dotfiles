@@ -45,3 +45,4 @@ ln -sf $dir/.emacs.d ~/.emacs.d
 
 mkdir -p ~/bin
 ln -sf $dir/sbt/sbt ~/bin/sbt
+ln -sf $dir/bin/upload-ip-address ~/bin/upload-ip-address
