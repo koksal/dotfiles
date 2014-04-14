@@ -15,8 +15,6 @@ alias open='opn'
 alias guile='rlwrap guile'
 alias racket='rlwrap racket'
 
-alias datafart='curl --data-binary @- datafart.com'
-
 function cgrep() {
   rgrep $1 $2 | grep -v "Binary file" | grep $1
 }
