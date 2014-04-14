@@ -1,9 +1,9 @@
 #!/bin/bash
 
-dir=`pwd`
+. ~/.keychain/$HOSTNAME-sh
+
+dir=~
 file=$dir/.ip-address
 date > $file
-ifconfig eth0 | grep "inet addr" | cut -d : -f 2 | cut -d ' ' -f 1 >> $file
+/sbin/ifconfig eth0 | grep "inet addr" | cut -d : -f 2 | cut -d ' ' -f 1 >> $file
 scp $file login:~/public_html/ip
-rm $file
-
