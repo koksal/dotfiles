@@ -24,4 +24,4 @@ function cgrep() {
 set -o vi
 
 source ~/.git-completion.sh
-eval `keychain --eval --inherit local --agents ssh ~/.ssh/id_rsa`
+eval `keychain --quiet --eval ~/.ssh/id_rsa`
