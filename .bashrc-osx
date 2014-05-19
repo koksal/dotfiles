@@ -43,4 +43,9 @@ IPurple='\e[0;95m'      # Purple
 ICyan='\e[0;96m'        # Cyan
 IWhite='\e[0;97m'       # White
 
-PS1="\[$Green\]\h\[$Color_Off\]:\[$IRed\]\w\[$Color_Off\]\[$Cyan\]\$(__git_ps1)\[$Color_Off\] \\$ "
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWUNTRACKEDFILES=true
+GIT_PS1_SHOWCOLORHINTS=true
+GIT_PS1_SHOWUPSTREAM="auto"
+
+PROMPT_COMMAND='__git_ps1 "\[$Green\]\h\[$Color_Off\]:\[$IRed\]\w\[$Color_Off\]\[$Cyan\]" "\[$Color_Off\] \\$ "'
