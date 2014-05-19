@@ -1,0 +1,18 @@
+PATH=$PATH:~/bin
+
+EDITOR=vim
+
+alias ll='ls -l'
+alias la='ls -la'
+alias vi='vim'
+alias winterm='rdesktop -u koksal -d EECS -x lan -f winterm.eecs.berkeley.edu'
+alias guile='rlwrap guile'
+alias racket='rlwrap racket'
+
+function cgrep() {
+  rgrep $1 $2 | grep -v "Binary file" | grep $1
+}
+
+set -o vi
+
+source ~/.git-completion.sh
