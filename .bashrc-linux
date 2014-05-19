@@ -1,0 +1,4 @@
+if [ -f ~/.bashrc-common ]; then . ~/.bashrc-common; fi
+
+alias open='opn'
+eval `keychain --quiet --eval ~/.ssh/id_rsa`

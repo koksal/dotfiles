@@ -1,9 +1,4 @@
 PATH=$PATH:~/bin
-PATH=$PATH:~/lib/java/current/bin
-PATH=$PATH:~/lib/scala/current/bin
-PATH=$PATH:~/lib/z3/current/bin
-PATH=$PATH:~/lib/racket/current/bin
-PATH=$PATH:~/lib/play/current
 
 EDITOR=vim
 
@@ -11,7 +6,6 @@ alias ll='ls -l'
 alias la='ls -la'
 alias vi='vim'
 alias winterm='rdesktop -u koksal -d EECS -x lan -f winterm.eecs.berkeley.edu'
-alias open='opn'
 alias guile='rlwrap guile'
 alias racket='rlwrap racket'
 
@@ -21,10 +15,10 @@ function cgrep() {
 
 set -o vi
 
-eval `keychain --quiet --eval ~/.ssh/id_rsa`
-
 source ~/.git-completion.sh
 source ~/.git-prompt.sh
+
+# customize prompt
 
 # Reset
 Color_Off='\e[0m'       # Text Reset
