@@ -1,3 +1,4 @@
 if [ -f ~/.bashrc-common ]; then . ~/.bashrc-common; fi
 
 alias ls='ls -G'
+alias grep='grep --color=auto'
