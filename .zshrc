@@ -7,9 +7,14 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="ys"
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+source ~/.zsh/checks.zsh
+source ~/.zsh/setopt.zsh
+source ~/.zsh/exports.zsh
+source ~/.zsh/evals.zsh
+source ~/.zsh/aliases.zsh
+source ~/.zsh/bindkeys.zsh
+source ~/.zsh/functions.zsh
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,24 +56,3 @@ ZSH_THEME="ys"
 plugins=(git sbt brew mosh)
 
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin:$HOME/bin"
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
