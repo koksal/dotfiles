@@ -1,13 +1,5 @@
 #!/bin/bash
 
-dir=`pwd`
-# echo Linking to files in $dir ...
-# 
-# echo Updating submodules ...
-# git submodule init
-# git submodule update
-# git submodule foreach git pull origin master
-
 link_file () {
   local src=$1
   local srcFolder=$(dirname $src)
@@ -23,5 +15,6 @@ link_file () {
 
 for f in $(find $(pwd) -name "*.symlink")
 do
+  echo "Linking" $f
   link_file $f
 done
