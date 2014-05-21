@@ -1,33 +1,30 @@
-[submodule ".vim/bundle/ctrlp.vim"]
-	path = .vim/bundle/ctrlp.vim
+[submodule ".vim.symlink/bundle/ctrlp.vim"]
+	path = .vim.symlink/bundle/ctrlp.vim
 	url = git@github.com:kien/ctrlp.vim.git
-[submodule ".vim/bundle/vim-scala"]
-	path = .vim/bundle/vim-scala
+[submodule ".vim.symlink/bundle/vim-scala"]
+	path = .vim.symlink/bundle/vim-scala
 	url = git@github.com:derekwyatt/vim-scala.git
-[submodule ".vim/bundle/play2vim"]
-	path = .vim/bundle/play2vim
+[submodule ".vim.symlink/bundle/play2vim"]
+	path = .vim.symlink/bundle/play2vim
 	url = git@github.com:gre/play2vim.git
-[submodule ".vim/bundle/nerdcommenter"]
-	path = .vim/bundle/nerdcommenter
+[submodule ".vim.symlink/bundle/nerdcommenter"]
+	path = .vim.symlink/bundle/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
-[submodule ".vim/bundle/vim-javascript"]
-	path = .vim/bundle/vim-javascript
+[submodule ".vim.symlink/bundle/vim-javascript"]
+	path = .vim.symlink/bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
-[submodule ".vim/bundle/html5.vim"]
-	path = .vim/bundle/html5.vim
+[submodule ".vim.symlink/bundle/html5.vim"]
+	path = .vim.symlink/bundle/html5.vim
 	url = git@github.com:othree/html5.vim.git
-[submodule ".emacs.d/evil"]
-	path = .emacs.d/evil
-	url = git://gitorious.org/evil/evil.git
 [submodule "sbt"]
 	path = sbt
 	url = git@github.com:paulp/sbt-extras.git
-[submodule ".vim/bundle/EasyMotion"]
-	path = .vim/bundle/EasyMotion
+[submodule ".vim.symlink/bundle/EasyMotion"]
+	path = .vim.symlink/bundle/EasyMotion
 	url = git@github.com:vim-scripts/EasyMotion.git
-[submodule ".vim/bundle/vim-surround"]
-	path = .vim/bundle/vim-surround
+[submodule ".vim.symlink/bundle/vim-surround"]
+	path = .vim.symlink/bundle/vim-surround
 	url = git@github.com:tpope/vim-surround.git
-[submodule ".vim/bundle/ag.vim"]
-	path = .vim/bundle/ag.vim
+[submodule ".vim.symlink/bundle/ag.vim"]
+	path = .vim.symlink/bundle/ag.vim
 	url = https://github.com/derekwyatt/ag.vim

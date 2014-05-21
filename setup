@@ -1,47 +1,63 @@
 #!/bin/bash
 
 dir=`pwd`
-echo Linking to files in $dir ...
+# echo Linking to files in $dir ...
+# 
+# echo Updating submodules ...
+# git submodule init
+# git submodule update
+# git submodule foreach git pull origin master
+# 
+# ln -sf $dir/.ctags ~/.ctags
+# 
+# rm -rf ~/.emacs.d
+# ln -sf $dir/.emacs ~/.emacs
+# ln -sf $dir/.emacs.d ~/.emacs.d
+# 
+# ln -sf $dir/.gitconfig ~/.gitconfig
+# 
+# rm -rf ~/.hgext
+# ln -sf $dir/.hgext ~/.hgext
+# ln -sf $dir/.hgeditor ~/.hgeditor
+# ln -sf $dir/.hgrc ~/.hgrc
+# 
+# ln -sf $dir/.inputrc ~/.inputrc
+# 
+# rm -rf ~/.sbt
+# ln -sf $dir/.sbt/ ~/.sbt
+# 
+# ln -sf $dir/.screenrc ~/.screenrc
+# 
+# mkdir -p ~/.ssh
+# ln -sf $dir/.ssh/config ~/.ssh/config
+# 
+# ln -sf $dir/.tmux.conf ~/.tmux.conf
+# 
+# rm -rf ~/.vim
+# ln -sf $dir/.vim ~/.vim
+# ln -sf $dir/.vimrc ~/.vimrc
+# 
+# mkdir -p ~/bin
+# ln -sf $dir/sbt/sbt ~/bin/sbt
+# ln -sf $dir/bin/upload-ip-address ~/bin/upload-ip-address
+# 
+# ln -sf $dir/.zsh ~/.zsh
+# ln -sf $dir/.zshrc ~/.zshrc
 
-echo Updating submodules ...
-git submodule init
-git submodule update
-git submodule foreach git pull origin master
+link_file () {
+  local src=$1
+  local srcFolder=$(dirname $src)
+  local relFolder=${srcFolder#$(pwd)}
+  local dstFolder=~/$relFolder
+  local basename=$(basename $src)
+  local dst=$dstFolder/${basename%".symlink"}
 
-ln -sf $dir/.bashrc-common ~/.bashrc-common
+  mkdir -p $dstFolder
+  rm -rf $dst
+  ln -sf $src $dst
+}
 
-ln -sf $dir/.ctags ~/.ctags
-
-ln -sf $dir/git-completion.sh ~/.git-completion.sh
-ln -sf $dir/git-prompt.sh ~/.git-prompt.sh
-ln -sf $dir/.gitconfig ~/.gitconfig
-
-rm -rf ~/.hgext
-ln -sf $dir/.hgext ~/.hgext
-ln -sf $dir/.hgeditor ~/.hgeditor
-ln -sf $dir/.hgrc ~/.hgrc
-
-ln -sf $dir/.inputrc ~/.inputrc
-
-rm -rf ~/.sbt
-ln -sf $dir/.sbt/ ~/.sbt
-
-ln -sf $dir/.screenrc ~/.screenrc
-
-mkdir -p ~/.ssh
-ln -sf $dir/.ssh/config ~/.ssh/config
-
-ln -sf $dir/.tmux.completion ~/.tmux.completion
-ln -sf $dir/.tmux.conf ~/.tmux.conf
-
-rm -rf ~/.vim
-ln -sf $dir/.vim ~/.vim
-ln -sf $dir/.vimrc ~/.vimrc
-
-rm -rf ~/.emacs.d
-ln -sf $dir/.emacs ~/.emacs
-ln -sf $dir/.emacs.d ~/.emacs.d
-
-mkdir -p ~/bin
-ln -sf $dir/sbt/sbt ~/bin/sbt
-ln -sf $dir/bin/upload-ip-address ~/bin/upload-ip-address
+for f in $(find $(pwd) -name "*.symlink")
+do
+  link_file $f
+done
