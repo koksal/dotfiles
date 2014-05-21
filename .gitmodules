@@ -25,3 +25,6 @@
 [submodule ".vim.symlink/bundle/ag.vim"]
 	path = .vim.symlink/bundle/ag.vim
 	url = https://github.com/derekwyatt/ag.vim
+[submodule ".vim.symlink/bundle/vim-easymotion"]
+	path = .vim.symlink/bundle/vim-easymotion
+	url = git@github.com:Lokaltog/vim-easymotion.git
