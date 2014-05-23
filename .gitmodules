@@ -28,3 +28,6 @@
 [submodule ".vim.symlink/bundle/vim-easymotion"]
 	path = .vim.symlink/bundle/vim-easymotion
 	url = git@github.com:Lokaltog/vim-easymotion.git
+[submodule ".vim.symlink/bundle/vim-commentary"]
+	path = .vim.symlink/bundle/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
