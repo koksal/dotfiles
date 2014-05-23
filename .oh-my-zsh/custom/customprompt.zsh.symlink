@@ -1,6 +1,4 @@
-# Adapted from code found at <https://gist.github.com/1712320>.
-# Used by "source"ing this file and adding "$(git_prompt_string)" to your
-# PROMPT or RPROMPT.
+# Taken from https://github.com/aripollak/random/blob/master/.zsh/git_prompt.zsh
 
 setopt prompt_subst
 autoload -U colors && colors # Enable colors in prompt
