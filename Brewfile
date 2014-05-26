@@ -1,3 +1,4 @@
+install ctags
 install gcc
 install git
 install mobile-shell
