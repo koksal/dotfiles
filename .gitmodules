@@ -31,3 +31,6 @@
 [submodule ".vim.symlink/bundle/vim-commentary"]
 	path = .vim.symlink/bundle/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule ".vim.symlink/bundle/vim-indent-guides"]
+	path = .vim.symlink/bundle/vim-indent-guides
+	url = git@github.com:nathanaelkane/vim-indent-guides.git

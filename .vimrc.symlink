@@ -70,3 +70,10 @@ set wildignore+=*.o,*.obj,.git,*.swp
 
 " Place swp files in tmp so Play doesn't trigger sbt
 set dir=~/tmp
+
+" Settings and colors for indent guides
+let g:indent_guides_auto_colors = 0
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=black
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
