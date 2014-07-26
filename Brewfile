@@ -1,6 +1,7 @@
 install ctags
 install gcc
 install git
+install mercurial
 install mobile-shell
 install nload
 install node
