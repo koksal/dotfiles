@@ -12,7 +12,13 @@ mq =
 hgshelve = ~/.hgext/hgshelve.py
 
 [pager]
-pager = LESS='FSRX' less
+pager = LESS=FSRX less
+quiet = True
+attend = diff,status,log,blame,annotate,lg,plog
 
 [bookmarks]
 track.current = True
+
+[alias]
+lg = log -G
+plog = log -G -p
