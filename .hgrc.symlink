@@ -20,7 +20,7 @@ attend = diff,status,log,blame,annotate,lg,plog
 track.current = True
 
 [alias]
-lg = log -G --template "{label('custom.rev',shortest(node))} - {desc} ({label('custom.date',date|age)}) {label('custom.author',author|person)}\n"
+lg = log -G
 plog = lg -p
 
 [color]
