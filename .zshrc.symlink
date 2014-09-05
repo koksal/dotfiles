@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # oh-my-zsh
 ZSH_THEME="ys"
-plugins=(git sbt brew mosh)
+plugins=(git sbt brew mosh docker bower python)
 source $ZSH/oh-my-zsh.sh
 
 source ~/.zsh/checks.zsh
