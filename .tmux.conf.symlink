@@ -17,22 +17,20 @@ bind p paste-buffer
 bind -t vi-copy 'v' begin-selection
 bind -t vi-copy 'y' copy-selection
 
-# alt-hjkl to switch panes
-bind -n M-h select-pane -L
-bind -n M-l select-pane -R
-bind -n M-k select-pane -U
-bind -n M-j select-pane -D
+# alt-hl to switch windows
+bind -n M-h previous-window
+bind -n M-l next-window
+
+# alt-HJKL to switch panes
+bind -n M-H select-pane -L
+bind -n M-L select-pane -R
+bind -n M-K select-pane -U
+bind -n M-J select-pane -D
 
 # visual cues
 set-option -g visual-activity on
 set-window-option -g monitor-activity on
 set-window-option -g window-status-current-bg blue
-
-# (shift-arrow) ctrl-shift-hl to switch windows
-# bind -n S-Right next-window
-# bind -n S-Left previous-window
-bind -n M-H previous-window
-bind -n M-L next-window
 
 # reload config file
 bind r source-file ~/.tmux.conf
