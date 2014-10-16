@@ -5,6 +5,7 @@ editor = ~/.hgeditor
 [extensions]
 bookmarks =
 fetch =
+rebase =
 color =
 pager =
 graphlog =
