@@ -34,7 +34,7 @@ imap <F3> <Esc>:bp<CR>
 map <F4> <Esc>:bn<CR>
 imap <F4> <Esc>:bn<CR>
 
-let mapleader = ","
+let mapleader = " "
 
 " For tagbar plugin
 nmap <F8> :TagbarToggle<CR>
