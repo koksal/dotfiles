@@ -34,3 +34,9 @@
 [submodule ".vim.symlink/bundle/vim-indent-guides"]
 	path = .vim.symlink/bundle/vim-indent-guides
 	url = git@github.com:nathanaelkane/vim-indent-guides.git
+[submodule ".vim.symlink/bundle/vim-fireplace"]
+	path = .vim.symlink/bundle/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
+[submodule ".vim.symlink/bundle/vim-classpath"]
+	path = .vim.symlink/bundle/vim-classpath
+	url = https://github.com/tpope/vim-classpath.git
