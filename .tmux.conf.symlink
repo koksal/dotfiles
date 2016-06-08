@@ -36,8 +36,7 @@ set-window-option -g window-status-current-bg blue
 bind r source-file ~/.tmux.conf
 
 # using the mouse
-set-window-option -g mode-mouse on
-set-option -g mouse-select-pane on
+set-option -g mouse on
 
 # open new splits and windows with the current working directory
 bind | split-window -h -c '#{pane_current_path}'
