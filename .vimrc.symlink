@@ -11,6 +11,9 @@ set softtabstop=2
 set backupskip=*
 set backspace=indent,eol,start
 
+set number
+set relativenumber
+
 set wildmode=longest,list
 set whichwrap+=<,>,h,l
 
