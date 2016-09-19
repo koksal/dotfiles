@@ -8,3 +8,4 @@
 .vim.symlink/bundle/target
 .emacs.d.symlink/elpa
 .emacs.d.symlink/ensime
+.DS_Store
