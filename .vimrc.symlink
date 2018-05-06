@@ -78,3 +78,6 @@ let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=black
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
+
+" Recognize .tex files
+autocmd BufRead,BufNewFile *.tex set filetype=tex
