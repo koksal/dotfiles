@@ -1,1 +1,1 @@
-setlocal textwidth=79
+set linebreak

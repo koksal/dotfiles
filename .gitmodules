@@ -40,3 +40,6 @@
 [submodule ".vim.symlink/bundle/vim-classpath"]
 	path = .vim.symlink/bundle/vim-classpath
 	url = https://github.com/tpope/vim-classpath.git
+[submodule ".vim.symlink/bundle/vim-latex"]
+	path = .vim.symlink/bundle/vim-latex
+	url = https://github.com/vim-latex/vim-latex.git
