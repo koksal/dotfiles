@@ -4,7 +4,10 @@
 .sbt.symlink/launchers
 .sbt.symlink/*/plugins/project
 .sbt.symlink/*/plugins/target
+.sbt.symlink/*/server
+.sbt.symlink/*/staging
 .sbt.symlink/*/target
+.sbt.symlink/*/zinc
 .vim.symlink/bundle/target
 .emacs.d.symlink/elpa
 .emacs.d.symlink/ensime

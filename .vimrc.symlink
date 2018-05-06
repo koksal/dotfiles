@@ -10,6 +10,7 @@ set shiftwidth=2
 set softtabstop=2
 set backupskip=*
 set backspace=indent,eol,start
+set linebreak
 
 set number
 set relativenumber
